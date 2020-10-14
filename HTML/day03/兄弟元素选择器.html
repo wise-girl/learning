@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兄弟元素选择器</title>
+    <style type="text/css">
+        /*span + p{*/
+        /*    background-color: yellowgreen;*/
+        /*}*/
+        span ~ p{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <P>我是一个p标签</P>
+    <P>我是一个p标签</P>
+    <P>我是一个p标签</P>
+    <span>我是一个span标签</span>
+    <P>我是一个p标签</P>
+    <P>我是一个p标签</P>
+    <P>我是一个p标签</P>
+</body>
+</html>
